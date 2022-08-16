@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgba(164, 138, 170, 0.575);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(43, 43, 43);
+}
+menu {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a {
+    padding-top: 7px;
+    color: rgb(220, 161, 238);
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:hover {
+    background-color: rgb(102, 100, 100);
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: 0.2s;
+}
+
+
+#tbirthday {
+    color: white;
+}
+
+#bemvindo {
+    color: blueviolet;
+    text-align: center;
+    font-size: 4em;
+}
+
+main {
+    max-width: 450px;
+    margin: auto;
+}
+
+main p {
+    padding: 10px;
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#photo {
+    height: 400px;
+    width: 300px;
+    background-image: url('image/photo.jpg');
+    margin-left: 80px;
+    
+}
+
+
+div h3 {
+    padding-top: 20px;
+}
+
+
+#local {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(61, 26, 61);
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: '==> ';
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+iframe {
+    max-width: 450px;
+    max-height: 400px;
+    padding-top: 20px;
+}
+
+#contatosp {
+    text-align: start;
+}
+
+li {
+    padding-top: 20px;
+}
+
+.redes {
+    color: rgb(113, 37, 151);
+
+    
+}
+
+.redes:hover {
+    background-color: black;
+}
+
+fieldset {
+    margin: -10px;
+    margin: 10px;
+}
+
+.participa {
+    text-align: left;
+    font-size: 1em;
+}
+
+form {
+    padding: 10px;
+}
+
+#copy {
+    font-style: italic;
+}
+
